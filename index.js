@@ -8,3 +8,6 @@ console.log(farzad);
 let farz = 8;
 farz = 15;
 console.log(farz);
+
+
+
