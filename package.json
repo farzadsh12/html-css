@@ -1,0 +1,19 @@
+{
+  "name": "sarvin",
+  "version": "3.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Farzad",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.13.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6"
+  }
+}
