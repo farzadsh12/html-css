@@ -9,4 +9,6 @@ console.log(farzad);
 const useGit = "after that, use Git, Git Desktop and Github.";
 console.log(useGit);
 
-// ok
+const book = 10;
+const notebook = 5;
+console.log(book + notebook);
