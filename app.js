@@ -126,3 +126,42 @@ for (let i = 0; i < 5; i++) {
 for (let i = 5; i >= 0; i--) {
     console.log(i);
 }
+
+
+
+
+// lesson 05
+
+
+const froArray = ["farazad", "farshad", "fardad", "faryad", "farnam"]
+
+const arr = [1, 2, 3, 4, 5];
+
+console.log(arr);
+console.log(arr[0]);
+arr[0] = 0;
+console.log(arr);
+
+const length = arr.length;
+console.log(length);
+
+arr.push(6);
+arr.push(7, 8, 9, 10);
+console.log(arr);
+
+const forDrop = arr.pop();
+console.log(forDrop);
+console.log(arr);
+
+for (i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+};
+
+
+
+
+// lesson 06
+
+
+
+
