@@ -63,3 +63,27 @@ console.log(num3 !== num1);
 
 
 
+const numm1 = 10;
+const numm2 = 20;
+console.log(numm1 !== !numm2);
+console.log(numm1 < numm2);
+
+
+const f1 = true;
+const f2 = false;
+console.log(f1 && f2);
+console.log(f1 || f2);
+
+
+
+// lesson 3
+
+const bookk = 10;
+
+if (bookk < 0) {
+    console.log("Hi, farzad");
+} else if (bookk < 5) {
+    console.log("hii");
+} else {
+    console.log("hello");
+}
