@@ -87,3 +87,42 @@ if (bookk < 0) {
 } else {
     console.log("hello");
 }
+
+
+
+// lesson 4
+
+// self assignment
+let f3 = 5;
+f3 = 8;
+f3--;
+f3++;
+f3++;
+console.log(f3);
+f3 = f3 - 1;
+f3 = f3 + 1;
+f3 = f3 + 10;
+console.log(f3);
+f3 += 1;
+f3 += 5;
+f3 -= 1;
+console.log(f3);
+
+
+let counter = 0;
+
+while (counter < 5) {
+    // counter++
+    console.log("farzad " + counter);
+    counter++;
+};
+
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+};
+
+
+for (let i = 5; i >= 0; i--) {
+    console.log(i);
+}
