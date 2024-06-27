@@ -12,3 +12,4 @@ console.log("farzad");
 console.log(20);
 console.log(20 + 10);
 console.log("Farzad " + "Sh");
+console.log("I have to go, then come back");
