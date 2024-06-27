@@ -1,17 +1,14 @@
-console.log("farzaddd"); 
-console.log("Mehdi");
-console.log("nodemon package priveosly install on global");
-
-const farzad = 115;
-console.log(farzad);
+// Hi.
+// I want to practice javascript.
+// Ok.
 
 
-const useGit = "after that, use Git, Git Desktop and Github.";
-console.log(useGit);
 
-const book = 10;
-const notebook = 5;
-console.log(book + notebook);
+// lesson one.
 
 
-// This is new
+console.log("Hi");
+console.log("farzad");
+console.log(20);
+console.log(20 + 10);
+console.log("Farzad " + "Sh");
