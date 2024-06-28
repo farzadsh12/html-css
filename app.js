@@ -165,3 +165,42 @@ for (i = 0; i < arr.length; i++) {
 
 
 
+function display2(number, number2, number3) {
+    console.log("farzad" + number);
+    const total = number2 - number3;
+    console.log(total);
+}
+
+display2(10, 20, 5);
+display2(20,22,3);
+
+
+
+function display3 (author) {
+    return author;
+    return 5;
+}
+
+const forReturn = display3("Hafez");
+console.log(forReturn);
+
+
+
+function display4 (arr) {
+    console.log(arr[0] + arr[3]);
+};
+
+const arr = [2,4,10,20];
+display4(arr);
+
+
+
+function greetUser(p1, p2) {
+    const total = p1 + p2;
+    return total;
+}
+
+const result = greetUser(5, 10);
+// const result1 = greetUawe(20, 30);
+console.log(result);
+// console.log(result1);
