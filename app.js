@@ -293,3 +293,12 @@ const ff2 = {
     },
     country: "iran"
 }
+
+
+
+
+// lesson 08
+
+
+
+
