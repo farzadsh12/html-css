@@ -300,5 +300,22 @@ const ff2 = {
 // lesson 08
 
 
+const global = 20;
+
+function greetUser (num4) {
+    let fdf = 10 + num4 + global;
+    if (fdf > 40) {
+        const block = 200;
+        fdf = 100;
+    };
+    return "farzad" + fdf;
+    // return "farzad" + fdf + block; 
+    return "Mehdi";
+}
+
+const result2 = greetUser(20);
+console.log(result2);
 
 
+
+// console.log(fdf);
