@@ -186,12 +186,12 @@ console.log(forReturn);
 
 
 
-function display4 (arr) {
-    console.log(arr[0] + arr[3]);
+function display4 (arrr) {
+    console.log(arrr[0] + arrr[3]);
 };
 
-const arr = [2,4,10,20];
-display4(arr);
+const arrr = [2,4,10,20];
+display4(arrr);
 
 
 
@@ -204,3 +204,92 @@ const result = greetUser(5, 10);
 // const result1 = greetUawe(20, 30);
 console.log(result);
 // console.log(result1);
+
+
+
+
+// lesson 07
+
+
+
+const forObject = {
+    firstName: "Ali",
+    lastName: "Sh",
+    old: 20,
+    hometown: "H.J",
+    country: "Iran",
+    alive: true
+};
+console.log(forObject);
+
+forObject.old = 23;
+console.log(forObject.old);
+
+const ff = JSON.stringify(forObject);
+console.log(ff);
+
+
+
+
+const dog = {
+    name: "popy",
+    old: 2,
+    bark: function () {
+        const fm = 5;
+        this.old = 10;
+        console.log(this.old + fm);
+        console.log(this);
+    }
+}
+
+dog.bark();
+
+
+
+
+// const forJson = {
+// "firstName": "Mehran",
+// "lastName": "bidad",
+// "old": 30
+// };
+// console.log(forJson);
+// // const fb = JSON.parse(forJson);
+// // console.log(fb);
+// console.log(JSON.parse(forJson));
+
+
+
+
+
+const ff1 = {
+    school: "chamran",
+    book: {
+        name: "Ali",
+        old: 24
+    },
+    notebook: {
+        red: true,
+        yellow: false,
+        green: {
+            lightGreen: true,
+            darkGreen: false
+        }
+    }
+};
+
+
+
+const ff2 = {
+    arr: [5, 10, 9],
+    obj: {
+        ff: "ok",
+        num: 5,
+        isOk: true
+    },
+    farzad: "sh",
+    friend: {
+        name: "mehran",
+        name: "bahador"
+    },
+    country: "iran"
+}
