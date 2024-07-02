@@ -324,3 +324,4 @@ console.log(result2);
 
 // from b
 // hi
+ok
