@@ -297,7 +297,7 @@ const ff2 = {
 
 
 
-// lesson 08
+// lesson 08 
 
 
 const global = 20;
