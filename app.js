@@ -319,3 +319,9 @@ console.log(result2);
 
 
 // console.log(fdf);
+
+
+
+// from b
+// hi
+ok
